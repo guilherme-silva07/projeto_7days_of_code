@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font: 100%;
 }
 
 nav {
@@ -16,7 +19,7 @@ nav {
 
 }
 
-.imagem_texto {
+.logo_texto {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -56,7 +59,7 @@ nav {
     color: #667085;
 }
 
-.botao_navbar{
+.botao_cadastro{
     padding: 10px 18px;
     background: #8E2424;
     border: 1px solid #8E2424;
@@ -66,6 +69,41 @@ nav {
     font-weight: 500;
 }
 
-.botao_navbar a{
+.botao_cadastro a{
     color: white;
+}
+
+.cabecalho-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.cabecalho-texto-1{
+    margin-top: 96px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E2424;
+}
+
+.cabecalho-texto-2{
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #101828;
+}
+
+.cabecalho-texto-3{
+    margin-top: 36px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 325px;
+    margin-right: 325px;
+    text-align: center;
+    color: #667085;
 }
