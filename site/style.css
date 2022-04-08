@@ -199,3 +199,73 @@ div {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+.vagas-titulo{
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 30px;
+ width: 768px;
+ padding-bottom: 32px;
+ color: #101828;
+}
+
+.vagas-nome{
+ width: 768px;
+ padding-bottom: 32px;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 28px;
+ color: #101828;
+}
+
+.vagas-hora-salario{
+ width: 768px;
+ display: flex;
+ gap: 24px;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+ color: #667085;
+}
+
+.vagas-informacoes{
+ display: flex;
+ flex-direction: column;
+ background: #FFFFFF;
+ border: 1px solid #EAECF0;
+ box-sizing: border-box;
+ border-radius: 16px;
+ width: 768px;
+ padding: 24px 24px 28px;
+ margin-bottom: 24px;
+}
+
+.vagas-titulo2{
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 30px;
+ width: 768px;
+ padding-bottom: 32px;
+ padding-top: 40px;
+ color: #101828;
+}
+
+
+
+
+
+
+
+
+
