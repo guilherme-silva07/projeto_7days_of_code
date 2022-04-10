@@ -261,11 +261,63 @@ div {
  color: #101828;
 }
 
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+}
 
+.depoimento-texto{
+    width: 1088px;
+    background-color:  rgba(196, 25, 25, 0.03);
+    width: 1216px;
+    border-radius: 16px;  
+    margin-top: 72px;
+    margin-bottom: 96px;
+    padding: 64px;
+}
 
+.depoimento-frase{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E2424;
+}
 
+.depoimento-titulo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    max-width: 1088px;
+    text-align: center;
+    padding-top: 16px;
+}
 
+.depoimento-foto-perfil{
+    padding-top: 32px;
+    max-width: 56px;
+}
 
+.depoimento-nome{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+    padding-top: 16px;
+}
 
-
-
+.depoimento-cargo{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+    padding-top: 4px;
+}
