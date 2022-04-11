@@ -29,8 +29,9 @@ nav {
 
 .texto_logo{
     font-style: normal;
+    font-weight: 500;
     font-size: 18px;
-    /* line-height: 24px; */
+    line-height: 24px;
     color: #3A404E;
 }
 
@@ -320,4 +321,85 @@ div {
     line-height: 20px;
     color: #667085;
     padding-top: 4px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #F9FAFB;
+    height: 430px;
+}
+
+.rodape{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape-titulo{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    padding-top: 96px;
+}
+
+.rodape-texto{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    padding-top: 20px;
+}
+
+.rodape-formulario{
+    display: flex;
+    gap: 16px;
+    padding-top: 40px;
+}
+
+.rodape-formulario-entrada{
+    background-color: white;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    width: 360px;
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+
+.rodape-formulario-botao{
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 20px;
+    width: 116px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.rodape-copyright{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98A2B3;
+    padding-top: 32px;
 }
