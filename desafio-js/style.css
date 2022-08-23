@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: rgb(22, 22, 45);
+  color: white;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+}
+
+.header_pesquisa{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 32px;
+}
+
+.header_checkbox{
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.header_pesquisa_input{
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border:none;
+  outline: none;
+}
+/*Karim esteve aqui*/
+.header_pesquisa_icon{
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.header_pesquisa_icon{
+  margin-left: 10px;
+}
+
+.main_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background: #1D1C3B;
+  border-radius: 0.5rem; 
+  padding: 1rem;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 1024px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.main_container_img{
+  width: 92px;
+  height: 92px;
+  margin-right: 1rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.main_container_info{
+  display: flex;
+  gap: 2rem;
+}
+
+.main_container_description{
+  display: flex;
+  flex-direction: column;
+}
+
+.main_container_description_characteristic{
+  display: flex;
+  gap: 2rem;
+}
+
+.main_container_description_characteristic_star{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.main_container_description_characteristic_heart{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.main_container_description_characteristic_heart_img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.main_container_summary{
+  max-width: 50%;
+  color: #ACACAC;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+
+.main{
+  padding-bottom: 2rem;
+}
